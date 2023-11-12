@@ -442,6 +442,7 @@ def menu():
                                 os.system('python ZEE.py')
                         elif xd in ['2','02']:
                                 clear()
+                            print(logo)
                                 print(' \033[1;32m[\033[1;37m1\033[1;32m] \033[1;37mPakistan cloning\n \033[1;32m[\033[1;37m2\033[1;32m] \033[1;37mBangladesh cloning\n \033[1;32m[\033[1;37m3\033[1;32m] \033[1;37mAfghanistan cloning\n \033[1;32m[\033[1;37m4\033[1;32m] \033[1;37mIndia cloning\n \033[1;32m[\033[1;37m0\033[1;32m] \033[1;37mBack menu')
                                 linex()
                                 x=input(' \033[1;32m[\033[1;37m+\033[1;32m] \033[1;37mChoose: ')
